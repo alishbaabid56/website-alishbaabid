@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.store-image{
+    margin-top: 20px;
+}
+
+
+.intro, .about-us, .actions, form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1000px;
+    flex-wrap: wrap; /* This will allow items to wrap on smaller screens */
+}
+
+.item {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add some spacing between items */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.item h3 {
+    margin: 10px 0;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #00008B;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .item {
+        width: 45%; /* Adjust item width for smaller screens */
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .item {
+        width: 100%; /* Stack items on top of each other */
+    }
+
+    .button {
+        padding: 8px 16px; /* Adjust button padding for mobile */
+        font-size: 0.9em; /* Adjust font size for better readability */
+    }
+}
+.actions {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+.video-container {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    
+}
+
+.actions {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+.video-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.actions {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+.video-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.actions {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+.video-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.actions {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+.video-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Centered Container for Both Table and Form */
+.center-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 10px solid #ddd;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+form label {
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    font-size: 1.2em;
+    font-style: italic;
+    
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
